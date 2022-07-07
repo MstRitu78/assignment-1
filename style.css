@@ -1,0 +1,67 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+
+    text-align: center;
+}
+
+h3 {
+
+    text-align: center;
+    font-size: small;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: rgb(228, 74, 100);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    margin: 300px;
+
+}
+
+.center {
+    text-align: center;
+
+}
+
+section {
+
+    margin-bottom: 150px;
+}
+
+.part-2 {
+    text-align: center;
+}
+
+.half-width {
+    height: 50px;
+    width: 50PX;
+    color: beige;
+    background-color: black;
+    padding: 100px;
+    margin: 20px;
+}
+
+.flexible-container {
+    text-align: center;
+    display: flex;
+    margin-left: 100px;
+
+}
+.food{
+    background-color: antiquewhite;
+}
+
+.donation {
+    background-image: url(images/82b70b20-3803-4586-ad10-0a1ebe41b41e.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+}
