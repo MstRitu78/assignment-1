@@ -2,16 +2,18 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-h1 {
-    font-size: 50px;
-
+.donation {
+    background-image: url(images/82b70b20-3803-4586-ad10-0a1ebe41b41e.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
     text-align: center;
+    font-size: 20px;
 }
-
-h3 {
-
-    text-align: center;
-    font-size: small;
+.donation h1{
+font-size: 80px;
 }
 
 .link-button {
@@ -33,10 +35,17 @@ section {
 
     margin-bottom: 150px;
 }
-
-.part-2 {
+.part-2{
     text-align: center;
 }
+
+.flexible-container {
+    text-align: center;
+    display: flex;
+    margin-left: 100px;
+
+}
+
 
 .half-width {
     height: 50px;
@@ -47,21 +56,88 @@ section {
     margin: 20px;
 }
 
-.flexible-container {
-    text-align: center;
+
+
+
+.width {
     display: flex;
+    height: 50px;
+    width: 50PX;
+    color: beige;
+    background-color:black;
+    padding: 100px;
     margin-left: 100px;
-
 }
-.food{
-    background-color: antiquewhite;
+.other{
+    text-align: center;
 }
-
-.donation {
-    background-image: url(images/82b70b20-3803-4586-ad10-0a1ebe41b41e.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.link-button{
+    text-decoration: none;
+    background-color: rgb(228, 74, 100);
+    padding: 10px 40px;
     color: white;
-    height: 100vh;
+    border-radius: 5px;
+    text-align: center;
+
 }
+
+.Donatetext {
+    text-align: center;
+}
+
+.donation-plan {
+    display: flex;
+}
+
+.plan1 {
+    margin: 20px;
+    background-color: lightblue;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.plan2 {
+    margin: 20px;
+    background-color: lightgray;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.plan3 {
+    margin: 20px;
+    background-color: tomato;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h1 {
+    color: tomato;
+}
+
+.getupdate-content{
+    text-align: center;
+}
+.getupdate-subscribe {
+    background: gray;
+    padding: 200px;
+    text-align: center;
+}
+
+.getupdate-subscribe input {
+    width: 500px;
+    padding: 20px;
+    border-radius: 5%;
+
+
+}
+
+
+
